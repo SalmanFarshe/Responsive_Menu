@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Menu Design</title>
+
+    <!-- font woasome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- header part start -->
+    <div class="header_wrapper sticky-top">
+      <header class="header">
+        <div class="logo_wrapper">
+          <h1 class="h1">MENU</h1>
+          <!-- <img src="" alt="" /> -->
+        </div>
+        <div class="menu">
+          <div class="humbergerr" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+          </div>
+          <ul id="scrollspy" class="menu_ul">
+            <li class="menu_li">
+              <a href="#Home" class="menu_link active">Home</a>
+            </li>
+            <li class="menu_li">
+              <a href="#Services" class="menu_link">Services</a>
+            </li>
+            <li class="menu_li">
+              <a href="#Portfolio" class="menu_link">Portfolio</a>
+            </li>
+            <li class="menu_li">
+              <a href="#Testimony" class="menu_link">Testimony</a>
+            </li>
+            <li class="menu_li">
+              <a href="#Pricing" class="menu_link">Pricing</a>
+            </li>
+            <li class="menu_li">
+              <a href="#Blog" class="menu_link">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+    </div>
+    <div class="info">
+      <h1>
+        Responsive <br />
+        Menu
+      </h1>
+    </div>
+    <!-- header part end -->
+    <footer>
+      <script src="js/menu.js"></script>
+    </footer>
+  </body>
+</html>
